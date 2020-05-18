@@ -33,8 +33,30 @@ a { color: #000 }
     display: flex;
     flex-direction: column;
     width: 500px;
+    .title1 { z-index: 1 }
     .title2 { color: $gold }
     ::selection { background: none; }
+}
+
+.gallery {
+    margin-top: 100px;
+    display: flex;
+    img {
+        border-left: 25px solid;
+        border-right: 25px solid;
+    }
+    .window {
+        border: none;
+        border-top: 25px solid;
+        border-bottom: 25px solid;
+        border-color: #153300;
+    }
+    .amelie {
+        border-color:#99A137;
+    }
+    .food {
+        border-color:  #be6038;
+    }
 }
 
 .invitation {
