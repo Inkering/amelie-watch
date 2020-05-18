@@ -1,0 +1,24 @@
+{
+  "name": "amelie-watch",
+  "version": "1.0.0",
+  "description": "Let's watch amelie!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inkering/amelie-watch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inkering/amelie-watch/issues"
+  },
+  "homepage": "https://github.com/Inkering/amelie-watch#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
