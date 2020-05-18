@@ -1,5 +1,12 @@
 $gold: #FEB322;
 
+// smartphone css mixin
+@mixin sm {
+  @media (max-width: 414px) {
+    @content;
+  }
+}
+
 body, html {
     background: #F4E5A0;
     font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
@@ -32,7 +39,7 @@ a { color: #000 }
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 580px;
     .title1 { z-index: 1 }
     .title2 { color: $gold }
     ::selection { background: none; }
@@ -43,6 +50,9 @@ a { color: #000 }
     img {
         width: 600px;
         height: 243px;
+        @include sm {
+            width: 1px;
+        }
     }
 }
 
