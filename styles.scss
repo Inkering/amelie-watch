@@ -3,6 +3,34 @@ body, html {
     font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
 }
 
+a { color: #000 }
+
+::selection {
+    color: white;
+    background: #FEB322;
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 60px;
+    font-size: 3rem;
+}
+
 .logotype {
     font-family: 'Romanesco', cursive;
+    font-size: 16rem;
+    line-height: 0.4;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    .title2 { color: #FEB322 }
+}
+
+.invitation {
+    text-align: center;
 }
